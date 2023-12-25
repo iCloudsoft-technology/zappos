@@ -1,0 +1,31 @@
+.mr{
+    height: 6vh;
+    width: 100vw;
+    background-color: #e7f4ff
+    ;
+    color: rgb(12, 11, 11);
+}
+.as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.as :first-child{
+    font-size: 35px;
+font-weight: 400;
+}
+.as :nth-child(2){
+    font-size: 25px;
+
+}
+
+@media only screen and ((max-width:900px) and (min-width:100px)){
+    .as :first-child{
+       font-size: 20px;
+
+    }
+    .as :nth-child(2){
+        font-size: 15px;
+    }
+}
